@@ -56,6 +56,14 @@ header {
 	border-radius: 10px;
 	position: relative;
 }
+.pop_up_body input {
+	max-width: 290px;
+	width: 100%;
+}
+.pop_up_body button {
+	max-width: 290px;
+	width: 100%;
+}
 .pop_up_close {
 	position: absolute;
 	top: 15px;
@@ -83,18 +91,17 @@ header {
 	border-radius: 10px;
 	border: none;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 15px;
 	color: rgb(75, 75, 75);
 }
 .pop_up_body button {
 	cursor: pointer;
 	display: block;
-	width: 330px;
 	padding: 20px 0;
 	margin: 60px auto 40px auto;
 	font-family: Montserrat;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 14px;
 	border: none;
 	color: #fff;
 	border-radius: 10px;
